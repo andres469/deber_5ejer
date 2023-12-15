@@ -1,0 +1,32 @@
+/* exercise1.page.scss */
+
+/* Puedes agregar estilos generales para las columnas aquí */
+
+ion-col {
+    /* Estilos generales de las columnas */
+  }
+  
+  /* Puedes agregar estilos específicos para pantallas pequeñas aquí */
+  
+  @media only screen and (max-width: 767px) {
+    ion-col {
+      /* Estilos específicos para pantallas pequeñas */
+    }
+  }
+  
+  /* Puedes agregar estilos específicos para pantallas medianas aquí */
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    ion-col {
+      /* Estilos específicos para pantallas medianas */
+    }
+  }
+  
+  /* Puedes agregar estilos específicos para pantallas grandes aquí */
+  
+  @media only screen and (min-width: 992px) {
+    ion-col {
+      /* Estilos específicos para pantallas grandes */
+    }
+  }
+  

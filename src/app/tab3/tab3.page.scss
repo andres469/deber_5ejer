@@ -1,0 +1,21 @@
+/* exercise1.page.scss */
+
+/* Estilos generales de las imágenes */
+img {
+    max-width: 100%; /* Asegura que las imágenes no excedan el ancho del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+  }
+  
+  /* Media query para pantallas con un ancho máximo de 500 píxeles */
+  @media only screen and (max-width: 500px) {
+    .imagen-visible {
+      display: none; /* Oculta la primera imagen en pantallas pequeñas */
+      visibility: hidden; /* Oculta la primera imagen, pero reserva su espacio */
+    }
+  
+    .imagen-oculta {
+      display: block; /* Muestra la segunda imagen en pantallas pequeñas */
+      visibility: visible; /* Muestra la segunda imagen */
+    }
+  }
+  

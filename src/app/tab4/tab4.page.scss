@@ -1,0 +1,12 @@
+ion-col {}
+  ion-row {}
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .fila-con-dos-columnas ion-col:first-child {
+      order: 2; 
+    }
+    .fila-con-dos-columnas ion-col:last-child {
+      order: 1; 
+    }
+  }
+  
